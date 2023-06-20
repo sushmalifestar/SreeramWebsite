@@ -1,0 +1,201 @@
+<html>
+  <head>
+    <title>Sreeram</title>
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    onclick="aboutme_click()"
+                    >ABOUT ME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="academics_click()">ACADEMICS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="skills_click()">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="projects_click()">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="journals_click()">JOURNALS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="patents_click()">PATENTS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+
+      <div id="aboutme" style="display: block;" class="div-style">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-3 img-style">
+            <img
+              src="../sreeram.jpg"
+              class="img-thumbnail rounded-circle shadow-4-strong center"
+            />
+          </div>
+          <div class="col-md-7 content-style">
+            <p class="name">Sreeram Barathula</p>
+            <p class="institute">Indian Institue of Technology-Chennai</p>
+            <p class="degree">Phd-Schollar</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="para-style">
+            I have 4+ years of experience conducting pool boiling numerical
+            simulations and experiments (for electronics cooling applications),
+            surface characterizations, Nano-fluid preparation, and hands-on
+            experience with signal processing, data acquistion systems, and
+            sensors along with 2+ years of experience in machine learning.
+          </p>
+          <p class="para-style">
+            I am specialized in developing experimental setups for pool boiling
+            heat trnsfer with various geometires of the heater specimens.
+            Besides, I am experienced in audio and vibration signal processing
+            and developing machine learning models. I have experience in
+            developing Python codes for the acoustic pyromertry application.
+          </p>
+        </div>
+      </div>
+
+      <div id="academics" style="display: none" class="div-style academic_style">
+        <ul>
+            <li class="academics-list-style">
+                Pursuing Ph.D in Indian Institute of Technology, Chennai, TamilNadu with 8.75 CGPA
+            </li>
+            <li class="academics-list-style">
+                Completed M.Tech in National Institute of Technology Agartala, Tripura with 9.64 CGPA
+            </li>
+            <li class="academics-list-style">
+                Completed B.Tech in QIS College of Engineering and Technology Ongole, Andhrapradesh with 81.35%
+            </li>
+            <li class="academics-list-style">
+                Completed Intermediate in Sri Chaitanya Junior Kalasala Ongole, Andhrapradesh with 92.17%
+            </li>
+            <li class="academics-list-style">
+                Completed Secondary School Certificate(SSC) in PVR boys high School Ongole, Andhrapradesh with 92.17%
+            </li>
+        </ul>
+      </div>
+
+      <div id="skills" style="display: none" class="div-style">
+        
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-3">
+                <p class="skill-para-style">Programming & ML</p>
+            </div>
+            <div class="col-md-7">
+                <ul>
+                    <li class="skill-list-style">MATLAB</li>
+                    <li class="skill-list-style">Python</li>
+                    <li class="skill-list-style">Scikit-Learn</li>
+                    <li class="skill-list-style">Tensor Flow</li>
+                    <li class="skill-list-style">Matplotlib</li>
+                    <li class="skill-list-style">Pandas</li>
+                    <li class="skill-list-style">Numpy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-3">
+                <p class="skill-para-style">Softwares</p>
+            </div>
+            <div class="col-md-7">
+                <ul>
+                    <li class="skill-list-style">Ansys Fluent</li>
+                    <li class="skill-list-style">Ansys Structural</li>
+                    <li class="skill-list-style">AutoCAD</li>
+                    <li class="skill-list-style">CATIA and Design Modular</li>
+                </ul>
+            </div>
+        </div>
+
+      </div>
+
+      <div id="projects" style="display: none" class="div-style">
+        <ul>
+            <li class="project-list-style">
+                Data-Driven methods for meta material band gap prediction
+                <a href="#">Show details</a>
+            </li>
+            <li class="project-list-style">
+                Effect of non-uniform discretizationof domain in acoustic pyromerty
+                <a href="#">Show details</a>
+            </li>
+            <li class="project-list-style">
+                Evaluation of machine learning models in the classification of pool boiling regimes
+                <a href="#">Show details</a>
+            </li>
+            <li class="project-list-style">
+                Boiling Induced Vibreations (BIV) for the classification of boiling regimes
+                <a href="#">Show details</a>
+                
+            </li>
+            <li class="project-list-style">
+                Experimental investigation and numerical simulation of pool boiling heat transfer
+                <a href="#">Show details</a>
+            </li>
+            <li class="project-list-style">
+                Hybrid Taguchi-Fuggy technique for prediction of boiling heat trnsfer corfficient
+                <a href="#">Show details</a>
+            </li>
+            <li class="project-list-style">
+                Performance and emission characteristics of diesel engine with biodiesel
+                <a href="#">Show details</a>
+            </li>
+            <li class="project-list-style">
+                Performance and emission characteristics of modified spark-ignition engine
+                <a href="#">Show details</a>
+            </li>
+            <li class="project-list-style">
+                Design and development of retrofit for the conventional personal wheel chair
+                <a href="#">Show details</a>
+            </li>
+        </ul>
+      </div>
+
+      <div id="journals" style="display: none" class="div-style">
+        <h1>This is journals tab</h1>
+      </div>
+
+      <div id="patents" style="display: none" class="div-style">
+        <p class='patents-para-style'>TurnNTorq- A high torque & differential drive mechanism for a wheelchair -E-2/247/2016-CHE- In Progress</p>
+      </div>
+
+    </div>
+  </body>
+</html>
